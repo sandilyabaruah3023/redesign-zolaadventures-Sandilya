@@ -1,73 +1,155 @@
-# Welcome to your Lovable project
+# Zola Adventures - Modern Vehicle Rental Website
 
-## Project info
+A complete redesign of the Zola Adventures website featuring modern UI/UX with glassmorphism, smooth animations, and dynamic content management.
 
-**URL**: https://lovable.dev/projects/67f69dfe-991e-4c16-b1a6-dc4aa577f9bc
+## 🚀 Features
 
-## How can I edit this code?
+- **Modern Design System**: Adventure-themed color palette with teal, orange, and earth tones
+- **Glassmorphism Effects**: Transparent navigation and card components with backdrop blur
+- **Smooth Animations**: CSS animations for hover effects, page transitions, and element reveals
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Dynamic Content**: All content managed through JSON files for easy updates
+- **Interactive Components**: Animated buttons, cards, and form elements
 
-There are several ways of editing your application.
+## 📋 Pages & Structure
 
-**Use Lovable**
+### Main Pages
+- **Home (/)**: Hero section with booking form, vehicle showcase, services overview
+- **Motorcycle List (/motorcycle-list)**: Complete bike and scooter catalog with filtering
+- **Self Drive Cars (/self-drive-car-rental)**: Car rental services and detailed features
+- **Services (/services)**: All transportation services with FAQ section
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/67f69dfe-991e-4c16-b1a6-dc4aa577f9bc) and start prompting.
+### Key Components
+- **Header**: Transparent navigation with scroll effects
+- **Hero**: Full-screen background with glassmorphism booking form
+- **VehicleCard**: Interactive cards with hover animations
+- **VehicleShowcase**: Carousel display with navigation controls
+- **ServicesSection**: Service overview with animated icons
+- **AboutSection**: Company information with feature highlights
+- **CallToAction**: Contact options and quick booking
+- **Footer**: Complete site navigation and contact info
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎨 Design System
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Color Palette
+```css
+--primary: 174 72% 56%        /* Turquoise/Teal */
+--accent: 14 91% 65%          /* Orange/Coral */
+--adventure-blue: 200 98% 39% /* Deep Blue */
+--adventure-green: 145 63% 42% /* Forest Green */
+--adventure-orange: 25 95% 53% /* Bright Orange */
 ```
 
-**Edit a file directly in GitHub**
+### Animations
+- **Float**: Continuous floating animation for hero elements
+- **Slide-in-up**: Entry animation for cards and sections
+- **Fade-in-left/right**: Directional fade animations
+- **Card-hover**: Scale and shadow effects on interaction
+- **Animated-underline**: Progressive underline on links
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Typography
+- **Headings**: Inter font family with gradient text effects
+- **Body**: Inter font for optimal readability
+- **Responsive sizing**: Fluid typography scaling
 
-**Use GitHub Codespaces**
+## 📁 JSON Data Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Site Configuration (`src/data/site-config.json`)
+- Site metadata and branding
+- Navigation menu structure
+- Hero section content
+- Booking form options
+- Contact information
 
-## What technologies are used for this project?
+### Vehicle Data
+- **Bikes** (`src/data/bikes.json`): Motorcycle and scooter inventory
+- **Cars** (`src/data/cars.json`): Car rental fleet with detailed specs
 
-This project is built with:
+### Services (`src/data/services.json`)
+- Service descriptions and features
+- FAQ section content
+- Call-to-action buttons
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🛠️ Technology Stack
 
-## How can I deploy this project?
+- **React 18** with TypeScript
+- **Vite** for fast development and building
+- **Tailwind CSS** with custom design system
+- **Shadcn/ui** components with custom styling
+- **Lucide React** for consistent iconography
+- **React Router** for navigation
 
-Simply open [Lovable](https://lovable.dev/projects/67f69dfe-991e-4c16-b1a6-dc4aa577f9bc) and click on Share -> Publish.
+## 🎯 Content Management
 
-## Can I connect a custom domain to my Lovable project?
+### Easy Updates
+All displayed content is stored in JSON files, making updates simple:
 
-Yes, you can!
+1. **Text Changes**: Edit JSON files in `src/data/`
+2. **Images**: Replace files in `src/assets/` (maintain file names)
+3. **Vehicles**: Add/remove entries in bikes.json or cars.json
+4. **Services**: Modify services.json for service updates
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Adding New Vehicles
+```json
+{
+  "id": 999,
+  "name": "New Vehicle Name",
+  "image": "/src/assets/bikes/new-vehicle.jpg",
+  "categories": ["City", "Mileage"],
+  "price": 1000,
+  "currency": "₹",
+  "features": ["Helmet", "GPS"],
+  "description": "Vehicle description"
+}
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🚀 Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## 📱 Responsive Breakpoints
+
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
+- **Large**: > 1400px
+
+## 🎨 Customization
+
+### Colors
+Update design tokens in `src/index.css` under `:root` selector.
+
+### Components
+Customize Shadcn components in `src/components/ui/` with new variants.
+
+### Animations
+Add new animations in `tailwind.config.ts` keyframes section.
+
+## 📞 Contact Integration
+
+- **Phone**: Direct calling functionality
+- **WhatsApp**: Web WhatsApp integration
+- **Booking**: Form-based booking system
+
+## 🔧 Performance Features
+
+- **Lazy Loading**: Images load on demand
+- **Tree Shaking**: Only used components included
+- **Optimized Animations**: Hardware-accelerated CSS animations
+- **Responsive Images**: Multiple sizes for different devices
+
+---
+
+Built with ❤️ for modern vehicle rental experiences in Guwahati.

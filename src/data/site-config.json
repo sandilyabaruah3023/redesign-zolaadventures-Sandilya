@@ -1,0 +1,149 @@
+{
+  "site": {
+    "name": "Zola Adventures",
+    "title": "Bike Rental in Guwahati | Scooty Rental in Guwahati | Self Drive Car rental in Guwahati | Cab Booking",
+    "description": "Just a click away from renting your self driven bike rental in Guwahati. Just call us to book one.",
+    "logo": "/src/assets/zola-logo.png",
+    "contact": {
+      "phone": "+918638875616",
+      "whatsapp": "918638875616",
+      "whatsappText": ""
+    }
+  },
+  "navigation": {
+    "mainMenu": [
+      {
+        "label": "Home",
+        "href": "/",
+        "active": true
+      },
+      {
+        "label": "Bike Rental in Guwahati",
+        "href": "/motorcycle-list"
+      },
+      {
+        "label": "Scooty Rental in Guwahati",
+        "href": "/motorcycle-list"
+      },
+      {
+        "label": "Car rental in Guwahati",
+        "href": "/self-drive-car-rental"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "ctaButton": {
+      "label": "TAKE ACTION",
+      "href": "#book-now"
+    }
+  },
+  "hero": {
+    "title": "Rent A Bike Scooty and Car in Guwahati",
+    "subtitle": "Just a click away from renting your self driven bike rental in Guwahati. Just call us to book one.",
+    "backgroundImage": "/src/assets/hero-bg.jpg",
+    "primaryCta": {
+      "label": "rent a bike",
+      "href": "/motorcycle-list"
+    },
+    "secondaryCta": {
+      "label": "rent a car", 
+      "href": "/self-drive-car-rental"
+    }
+  },
+  "bookingForm": {
+    "pickupLocations": [
+      {
+        "name": "Guwahati Airport",
+        "fee": 700,
+        "feeText": "₹700 convenience fee applicable"
+      },
+      {
+        "name": "Guwahati Railway station",
+        "fee": 500,
+        "feeText": "₹500 convenience fee applicable"
+      },
+      {
+        "name": "City Parking",
+        "fee": 0,
+        "feeText": "Mother Teresa road"
+      }
+    ],
+    "dropOffLocations": [
+      {
+        "name": "Guwahati Airport",
+        "fee": 700,
+        "feeText": "₹700 convenience fee applicable"
+      },
+      {
+        "name": "Guwahati Railway station",
+        "fee": 500,
+        "feeText": "₹500 convenience fee applicable"
+      },
+      {
+        "name": "City Parking",
+        "fee": 0,
+        "feeText": "Mother Teresa road"
+      }
+    ],
+    "timeSlots": [
+      "06 am", "07 am", "08 am", "09 am", "10 am", "11 am",
+      "12 pm", "01 pm", "02 pm", "03 pm", "04 pm", "05 pm",
+      "06 pm", "07 pm", "08 pm", "09 pm", "10 pm"
+    ],
+    "categories": [
+      "Any",
+      "City",
+      "Mileage", 
+      "Tour Adventure"
+    ]
+  },
+  "services": {
+    "mainServices": [
+      {
+        "id": "self-drive-cars",
+        "title": "SELF DRIVE CARS",
+        "href": "/self-drive-car-rental",
+        "icon": "Car"
+      },
+      {
+        "id": "rental-cabs",
+        "title": "RENTAL CABS",
+        "href": "/services#service-2",
+        "icon": "Taxi"
+      },
+      {
+        "id": "tempo-travellers",
+        "title": "TEMPO TRAVELLERS RENTALS",
+        "href": "/services#service-3",
+        "icon": "Bus"
+      }
+    ]
+  },
+  "about": {
+    "title": "About us",
+    "content": "At Zola Adventures we focus on providing the best holiday experience you could have ever planned. We extend our hands to every extent to provide the support we can. Why us? We are one the oldest rentals in Guwahati. Experienced team, fast booking, no booking transfers, tie up with many vendors.",
+    "ctaText": "Call us to book a ride",
+    "ctaButton": {
+      "label": "Book now",
+      "href": "#book-now"
+    }
+  },
+  "callToAction": {
+    "title": "CALL AND BOOK",
+    "content": "Book your trip ready bike or car. Call us to know more.",
+    "button": {
+      "label": "book now",
+      "href": "#book-now"
+    }
+  }
+}

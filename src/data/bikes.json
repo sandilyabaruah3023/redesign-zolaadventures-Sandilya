@@ -1,0 +1,139 @@
+{
+  "bikes": [
+    {
+      "id": 13,
+      "name": "RE Himalayan 450",
+      "image": "/src/assets/bikes/himalayan-450.jpg",
+      "categories": ["City", "Mileage", "Tour Adventure"],
+      "price": 2500,
+      "currency": "₹",
+      "features": ["Helmet"],
+      "description": "Latest Himalayan with advanced features for adventure touring",
+      "specs": {
+        "engine": "450cc",
+        "type": "Adventure",
+        "fuelType": "Petrol"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Royal Enfield Classic BS6",
+      "image": "/src/assets/bikes/classic-bs6.jpg",
+      "categories": ["City", "Mileage", "Tour Adventure"],
+      "price": 1500,
+      "currency": "₹",
+      "features": ["Helmet"],
+      "description": "Classic vintage styling with modern BS6 engine",
+      "specs": {
+        "engine": "350cc",
+        "type": "Cruiser",
+        "fuelType": "Petrol"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Royal Enfield Scram 411",
+      "image": "/src/assets/bikes/scram-411.jpg",
+      "categories": ["Tour Adventure"],
+      "price": 1500,
+      "currency": "₹",
+      "features": ["Helmet"],
+      "description": "Perfect for adventure rides and off-road exploration",
+      "specs": {
+        "engine": "411cc",
+        "type": "Adventure",
+        "fuelType": "Petrol"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Himalayan BS6",
+      "image": "/src/assets/bikes/himalayan-bs6.jpg",
+      "categories": ["City", "Mileage", "Tour Adventure"],
+      "price": 1500,
+      "currency": "₹",
+      "features": ["Helmet"],
+      "description": "The original adventure bike with proven reliability",
+      "specs": {
+        "engine": "411cc",
+        "type": "Adventure",
+        "fuelType": "Petrol"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Yamaha Fascino",
+      "image": "/src/assets/bikes/fascino.jpg",
+      "categories": ["City", "Mileage"],
+      "price": 500,
+      "currency": "₹",
+      "features": ["Helmet"],
+      "description": "Smart powerful and smooth to ride",
+      "specs": {
+        "engine": "125cc",
+        "type": "Scooter",
+        "fuelType": "Petrol"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Honda Activa",
+      "image": "/src/assets/bikes/activa.jpg",
+      "categories": ["City", "Mileage"],
+      "price": 500,
+      "currency": "₹",
+      "features": ["Helmet"],
+      "description": "Honda Activa for your city commute. Gearless scooties only limited to inside city use.",
+      "specs": {
+        "engine": "110cc",
+        "type": "Scooter",
+        "fuelType": "Petrol"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Honda Dio",
+      "image": "/src/assets/bikes/dio.jpg",
+      "categories": ["City", "Mileage"],
+      "price": 500,
+      "currency": "₹",
+      "features": [],
+      "description": "Short City ride",
+      "specs": {
+        "engine": "110cc",
+        "type": "Scooter",
+        "fuelType": "Petrol"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Yamaha FZ V3",
+      "image": "/src/assets/bikes/fz-v3.jpg",
+      "categories": ["City", "Mileage"],
+      "price": 1000,
+      "currency": "₹",
+      "features": ["Helmet"],
+      "description": "Choose one for a smooth ride",
+      "specs": {
+        "engine": "150cc",
+        "type": "Sport",
+        "fuelType": "Petrol"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Royal Classic BS4",
+      "image": "/src/assets/bikes/classic-bs4.jpg",
+      "categories": ["City", "Tour Adventure"],
+      "price": 1200,
+      "currency": "₹",
+      "features": ["Helmet"],
+      "description": "The classic tourer",
+      "specs": {
+        "engine": "350cc",
+        "type": "Cruiser",
+        "fuelType": "Petrol"
+      }
+    }
+  ]
+}

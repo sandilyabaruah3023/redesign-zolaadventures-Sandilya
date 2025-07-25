@@ -1,0 +1,80 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Innova Hycross 8 seater",
+      "image": "/src/assets/cars/innova-hycross.jpg",
+      "type": "Self Drive Car Rental",
+      "price": 3500,
+      "currency": "₹",
+      "seating": 8,
+      "features": [
+        "Spacious Interior",
+        "Three Row Seating Capacity", 
+        "Versatility",
+        "Smooth Ride",
+        "Fuel Efficiency",
+        "Safety Features"
+      ],
+      "description": "Innova Hycross is designed to prioritize interior space and passenger comfort. At Zola Self drive car rent in Guwahati we typically offer the Hycross because it has ample legroom, headroom, and cabin space for both front and rear passengers.",
+      "specs": {
+        "engine": "2.0L Hybrid",
+        "fuelType": "Hybrid",
+        "transmission": "CVT",
+        "mileage": "15 kmpl"
+      },
+      "detailedFeatures": {
+        "spaciousInterior": "Innova Hycross is designed to prioritize interior space and passenger comfort. At Zola Self drive car rent in Guwahati we typically offer the Hycross because it has ample legroom, headroom, and cabin space for both front and rear passengers. This allows travelers to stretch out and stay comfortable during long journeys.",
+        "seatingCapacity": "Innova Hycross usually have 3 rows of seats, accommodating more passengers than standard sedans or SUVs. This is particularly beneficial for families or groups of travelers who want to travel together in self drive car rental in Guwahati or from Guwahati.",
+        "versatility": "Innova Hycross feature configurable seating arrangements, allowing you to fold down or remove seats to create extra cargo space. This versatility is valuable for carrying luggage, sports equipment, or other items needed for a long trip.",
+        "smoothRide": "Innova Hycross is designed with comfort in mind. They often have a suspension system that absorbs road bumps and irregularities, resulting in a smoother and more comfortable ride for passengers, especially during long drives.",
+        "fuelEfficiency": "While this can vary depending on the model and engine, Innova Hycross from Zola self drive car rental in Guwahati offer decent fuel efficiency of approximately 10 to 15 kmpl. This is essential for long-distance travel, as it helps reduce the frequency of refueling stops and overall fuel costs.",
+        "safetyFeatures": "Why rent a Innova Hycross is beneficial. It comes equipped with a range of safety features, including multiple airbags, advanced driver assistance systems, and stability control. These safety features provide peace of mind for both the driver and passengers during the journey."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Maruti Swift Dzire",
+      "image": "/src/assets/cars/swift-dzire.jpg",
+      "type": "Self Drive Car Rental",
+      "price": 2000,
+      "currency": "₹",
+      "seating": 5,
+      "features": [
+        "Fuel Efficient",
+        "Compact Design",
+        "Easy to Drive",
+        "City Friendly"
+      ],
+      "description": "Perfect compact sedan for city drives and short trips",
+      "specs": {
+        "engine": "1.2L Petrol",
+        "fuelType": "Petrol",
+        "transmission": "Manual/AMT",
+        "mileage": "20 kmpl"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Mahindra XUV 700",
+      "image": "/src/assets/cars/xuv-700.jpg",
+      "type": "Self Drive Car Rental",
+      "price": 4000,
+      "currency": "₹",
+      "seating": 7,
+      "features": [
+        "Premium SUV",
+        "Advanced Technology",
+        "Spacious",
+        "Powerful Engine"
+      ],
+      "description": "Premium SUV with advanced features and comfort",
+      "specs": {
+        "engine": "2.0L Turbo Petrol/Diesel",
+        "fuelType": "Petrol/Diesel",
+        "transmission": "Manual/Automatic",
+        "mileage": "12-16 kmpl"
+      }
+    }
+  ]
+}
