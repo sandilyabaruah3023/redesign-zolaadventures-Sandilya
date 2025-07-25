@@ -58,13 +58,15 @@ const Header = () => {
           {/* Right side actions */}
           <div className="hidden lg:flex items-center space-x-4">
             <a
-              href={`tel:${siteConfig.site.contact.phone}`}
+              href="/contact"
               className="text-foreground hover:text-primary transition-colors"
             >
               <Phone className="w-5 h-5" />
             </a>
             <a
               href={`https://web.whatsapp.com/send?phone=${siteConfig.site.contact.whatsapp}&text=${siteConfig.site.contact.whatsappText}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-foreground hover:text-primary transition-colors"
             >
               <MessageCircle className="w-5 h-5" />
@@ -110,14 +112,17 @@ const Header = () => {
                 ))}
                 <div className="flex items-center space-x-4 pt-4 border-t border-white/20">
                   <a
-                    href={`tel:${siteConfig.site.contact.phone}`}
+                    href="/contact"
                     className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
                   >
                     <Phone className="w-5 h-5" />
                     <span>Call</span>
                   </a>
                   <a
                     href={`https://web.whatsapp.com/send?phone=${siteConfig.site.contact.whatsapp}&text=${siteConfig.site.contact.whatsappText}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
                   >
                     <MessageCircle className="w-5 h-5" />
