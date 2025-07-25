@@ -31,57 +31,118 @@ const Services = () => {
         {/* Services Grid */}
         <section className="py-12">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {servicesData.services.map((service, index) => (
-                <Card key={service.id} className="overflow-hidden card-hover animate-slide-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
-                  <div className="relative">
-                    <img
-                      src={service.image}
-                      alt={service.title}
-                      className="w-full h-64 object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className="absolute bottom-4 left-4">
-                      <h2 className="text-2xl font-bold text-white mb-2">
-                        {service.title}
-                      </h2>
-                    </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {/* Rent a Car */}
+              <Card className="overflow-hidden card-hover animate-slide-in-up" style={{ animationDelay: '0.1s' }}>
+                <div className="relative">
+                  <img
+                    src="/src/assets/cars/innova-hycross.jpg"
+                    alt="Rent a Car"
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                  <div className="absolute bottom-4 left-4">
+                    <h2 className="text-xl font-bold text-white">
+                      Rent a Car
+                    </h2>
                   </div>
-                  
-                  <CardContent className="p-6">
-                    <p className="text-muted-foreground mb-6 leading-relaxed">
-                      {service.description}
-                    </p>
-                    
-                    {service.features && (
-                      <div className="mb-6">
-                        <h3 className="font-bold mb-3">Features:</h3>
-                        <div className="space-y-2">
-                          {service.features.map((feature, featureIndex) => (
-                            <div key={featureIndex} className="flex items-start space-x-2">
-                              <CheckCircle className="w-4 h-4 text-adventure-green mt-0.5 flex-shrink-0" />
-                              <span className="text-sm text-muted-foreground">{feature}</span>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                    
-                    {service.conclusion && (
-                      <p className="text-foreground font-medium mb-6">
-                        {service.conclusion}
-                      </p>
-                    )}
-                    
-                    <Button
-                      onClick={() => window.location.href = service.ctaButton.href}
-                      className="btn-hero w-full"
-                    >
-                      {service.ctaButton.label}
-                    </Button>
-                  </CardContent>
-                </Card>
-              ))}
+                </div>
+                <CardContent className="p-6">
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    Self-drive car rental service with a wide range of vehicles for every need.
+                  </p>
+                  <Button
+                    onClick={() => window.location.href = '/self-drive-car-rental'}
+                    className="btn-hero w-full"
+                  >
+                    Book Now
+                  </Button>
+                </CardContent>
+              </Card>
+
+              {/* Rent a Scooter */}
+              <Card className="overflow-hidden card-hover animate-slide-in-up" style={{ animationDelay: '0.2s' }}>
+                <div className="relative">
+                  <img
+                    src="/src/assets/bikes/activa.jpg"
+                    alt="Rent a Scooter"
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                  <div className="absolute bottom-4 left-4">
+                    <h2 className="text-xl font-bold text-white">
+                      Rent a Scooter
+                    </h2>
+                  </div>
+                </div>
+                <CardContent className="p-6">
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    Convenient scooter rental for easy city exploration and daily commutes.
+                  </p>
+                  <Button
+                    onClick={() => window.location.href = '/motorcycle-list'}
+                    className="btn-hero w-full"
+                  >
+                    Book Now
+                  </Button>
+                </CardContent>
+              </Card>
+
+              {/* Rent a Bike */}
+              <Card className="overflow-hidden card-hover animate-slide-in-up" style={{ animationDelay: '0.3s' }}>
+                <div className="relative">
+                  <img
+                    src="/src/assets/bikes/fz-v3.jpg"
+                    alt="Rent a Bike"
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                  <div className="absolute bottom-4 left-4">
+                    <h2 className="text-xl font-bold text-white">
+                      Rent a Bike
+                    </h2>
+                  </div>
+                </div>
+                <CardContent className="p-6">
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    Premium motorcycle rental for adventure enthusiasts and daily riders.
+                  </p>
+                  <Button
+                    onClick={() => window.location.href = '/motorcycle-list'}
+                    className="btn-hero w-full"
+                  >
+                    Book Now
+                  </Button>
+                </CardContent>
+              </Card>
+
+              {/* Rent a Cab or Tempo */}
+              <Card className="overflow-hidden card-hover animate-slide-in-up" style={{ animationDelay: '0.4s' }}>
+                <div className="relative">
+                  <img
+                    src="/src/assets/services/tempo-service.jpg"
+                    alt="Rent a Cab or Tempo"
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                  <div className="absolute bottom-4 left-4">
+                    <h2 className="text-xl font-bold text-white">
+                      Rent a Cab or Tempo
+                    </h2>
+                  </div>
+                </div>
+                <CardContent className="p-6">
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    Professional cab booking and tempo traveller rental for group travel.
+                  </p>
+                  <Button
+                    onClick={() => window.location.href = 'tel:+918638875616'}
+                    className="btn-hero w-full"
+                  >
+                    Book Now
+                  </Button>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
