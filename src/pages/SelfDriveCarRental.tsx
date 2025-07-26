@@ -9,8 +9,8 @@ import carsData from '@/data/cars.json';
 
 const SelfDriveCarRental = () => {
   const handleBookNow = (carId: number) => {
-    // Handle booking logic
-    console.log('Book car:', carId);
+    // Navigate to car details
+    window.location.href = `/car/${carId}`;
   };
 
   return (

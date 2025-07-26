@@ -13,7 +13,8 @@ interface VehicleCardProps {
   currency: string;
   features: string[];
   description?: string;
-  onContinue: (id: number) => void;
+  vehicleType?: string;
+  onContinue: (id: number, vehicleType?: string) => void;
 }
 
 const VehicleCard: React.FC<VehicleCardProps> = ({
@@ -25,6 +26,7 @@ const VehicleCard: React.FC<VehicleCardProps> = ({
   currency,
   features,
   description,
+  vehicleType = 'motorcycle',
   onContinue
 }) => {
   return (
@@ -73,7 +75,7 @@ const VehicleCard: React.FC<VehicleCardProps> = ({
         )}
         
         <Button
-          onClick={() => onContinue(id)}
+          onClick={() => onContinue(id, vehicleType)}
           className="w-full group"
           variant="default"
         >

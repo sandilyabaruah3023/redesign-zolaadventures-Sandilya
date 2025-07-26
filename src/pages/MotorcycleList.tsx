@@ -20,9 +20,9 @@ const MotorcycleList = () => {
     return matchesCategory && matchesSearch;
   });
 
-  const handleContinue = (id: number) => {
+  const handleContinue = (id: number, vehicleType: string = 'motorcycle') => {
     // Navigate to vehicle details
-    window.location.href = `/motorcycle-details/${id}`;
+    window.location.href = `/${vehicleType}/${id}`;
   };
 
   return (
