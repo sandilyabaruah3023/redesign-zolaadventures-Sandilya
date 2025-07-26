@@ -3,7 +3,7 @@
     {
       "id": 13,
       "name": "RE Himalayan 450",
-      "image": "public/images/bikes/himalayan-450.jpg",
+      "image": "/images/bikes/himalayan-450.jpg",
       "categories": ["City", "Mileage", "Tour Adventure"],
       "price": 2500,
       "currency": "₹",
@@ -18,7 +18,7 @@
     {
       "id": 15,
       "name": "Royal Enfield Classic BS6",
-      "image": "public/images/bikes/classic-bs6.jpg",
+      "image": "/images/bikes/classic-bs6.jpg",
       "categories": ["City", "Mileage", "Tour Adventure"],
       "price": 1500,
       "currency": "₹",
@@ -33,7 +33,7 @@
     {
       "id": 9,
       "name": "Royal Enfield Scram 411",
-      "image": "public/images/bikes/scram-411.jpg",
+      "image": "/images/bikes/scram-411.jpg",
       "categories": ["Tour Adventure"],
       "price": 1500,
       "currency": "₹",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "name": "Himalayan BS6",
-      "image": "public/images/bikes/himalayan-bs6.jpg",
+      "image": "/images/bikes/himalayan-bs6.jpg",
       "categories": ["City", "Mileage", "Tour Adventure"],
       "price": 1500,
       "currency": "₹",
@@ -63,7 +63,7 @@
     {
       "id": 7,
       "name": "Yamaha Fascino",
-      "image": "public/images/bikes/fascino.jpg",
+      "image": "/images/bikes/fascino.jpg",
       "categories": ["City", "Mileage"],
       "price": 500,
       "currency": "₹",
@@ -78,7 +78,7 @@
     {
       "id": 8,
       "name": "Honda Activa",
-      "image": "public/images/bikes/activa.jpg",
+      "image": "/images/bikes/activa.jpg",
       "categories": ["City", "Mileage"],
       "price": 500,
       "currency": "₹",
@@ -93,7 +93,7 @@
     {
       "id": 12,
       "name": "Honda Dio",
-      "image": "public/images/bikes/dio.jpg",
+      "image": "/images/bikes/dio.jpg",
       "categories": ["City", "Mileage"],
       "price": 500,
       "currency": "₹",
@@ -108,7 +108,7 @@
     {
       "id": 10,
       "name": "Yamaha FZ V3",
-      "image": "public/images/bikes/fz-v3.jpg",
+      "image": "/images/bikes/fz-v3.jpg",
       "categories": ["City", "Mileage"],
       "price": 1000,
       "currency": "₹",
@@ -123,7 +123,7 @@
     {
       "id": 14,
       "name": "Royal Classic BS4",
-      "image": "public/images/bikes/classic-bs4.jpg",
+      "image": "/images/bikes/classic-bs4.jpg",
       "categories": ["City", "Tour Adventure"],
       "price": 1200,
       "currency": "₹",

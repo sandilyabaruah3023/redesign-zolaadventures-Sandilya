@@ -3,7 +3,7 @@
     {
       "id": "scooty-rental",
       "title": "Scooty Rental",
-      "image": "public/images/services/scooty-service.jpg",
+      "image": "/images/services/scooty-service.jpg",
       "description": "Scooter rental services in Guwahati offer a convenient way for locals or tourists to explore the city. There are many options for renting scooties available in Guwahati, with prices ranging from INR 300-500 per day depending on the make and model of the scooter.",
       "features": [
         "We also deliver scooters to your doorstep on request",
@@ -23,7 +23,7 @@
     {
       "id": "bike-rental",
       "title": "Bike rental in Guwahati",
-      "image": "public/images/services/bike-service.jpg",
+      "image": "/images/services/bike-service.jpg",
       "description": "Premium motorcycle rental service for adventure enthusiasts and daily commuters in Guwahati.",
       "ctaButton": {
         "label": "book now",
@@ -33,7 +33,7 @@
     {
       "id": "car-rental",
       "title": "Rent a car",
-      "image": "public/images/services/car-service.jpg",
+      "image": "/images/services/car-service.jpg",
       "description": "Self-drive car rental service with a wide range of vehicles for every need.",
       "ctaButton": {
         "label": "book now",
@@ -43,7 +43,7 @@
     {
       "id": "rental-cabs",
       "title": "Rental cabs and Tempo travellers",
-      "image": "public/images/services/tempo-service.jpg",
+      "image": "/images/services/tempo-service.jpg",
       "description": "Professional cab booking and tempo traveller rental for group travel and tours.",
       "ctaButton": {
         "label": "book now",
