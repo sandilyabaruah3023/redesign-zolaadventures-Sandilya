@@ -104,6 +104,7 @@ const MotorcycleList = () => {
                         currency={bike.currency}
                         features={bike.features}
                         description={bike.description}
+                        vehicleType="motorcycle"
                         onContinue={handleContinue}
                       />
                     </div>

@@ -50,17 +50,18 @@ const VehicleShowcase = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             {getCurrentItems().map((bike) => (
               <div key={bike.id} className="animate-slide-in-up">
-                <VehicleCard
-                  id={bike.id}
-                  name={bike.name}
-                  image={bike.image}
-                  categories={bike.categories}
-                  price={bike.price}
-                  currency={bike.currency}
-                  features={bike.features}
-                  description={bike.description}
-                  onContinue={handleContinue}
-                />
+                      <VehicleCard
+                        id={bike.id}
+                        name={bike.name}
+                        image={bike.image}
+                        categories={bike.categories}
+                        price={bike.price}
+                        currency={bike.currency}
+                        features={bike.features}
+                        description={bike.description}
+                        vehicleType="motorcycle"
+                        onContinue={handleContinue}
+                      />
               </div>
             ))}
           </div>

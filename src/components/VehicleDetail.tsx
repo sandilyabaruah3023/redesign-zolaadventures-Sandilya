@@ -63,7 +63,7 @@ const VehicleDetail = () => {
   }
 
   if (!vehicle) {
-    return <Navigate to="/404" replace />;
+    return <Navigate to="/" replace />;
   }
 
   const locations = [
