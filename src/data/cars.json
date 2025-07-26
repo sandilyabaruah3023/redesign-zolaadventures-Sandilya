@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Innova Hycross 8 seater",
-      "image": "/src/assets/cars/innova-hycross.jpg",
+      "image": "public/images/cars/innova-hycross.jpg",
       "type": "Self Drive Car Rental",
       "price": 3500,
       "currency": "₹",
@@ -35,7 +35,7 @@
     {
       "id": 2,
       "name": "Maruti Swift Dzire",
-      "image": "/src/assets/cars/swift-dzire.jpg",
+      "image": "public/images/cars/swift-dzire.jpg",
       "type": "Self Drive Car Rental",
       "price": 2000,
       "currency": "₹",
@@ -57,7 +57,7 @@
     {
       "id": 3,
       "name": "Mahindra XUV 700",
-      "image": "/src/assets/cars/xuv-700.jpg",
+      "image": "public/images/cars/xuv-700.jpg",
       "type": "Self Drive Car Rental",
       "price": 4000,
       "currency": "₹",
